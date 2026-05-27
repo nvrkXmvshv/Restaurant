@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Ресторан Уютное место</title>
+	<link rel="stylesheet" href="./Css/index.css">
+	<link rel="stylesheet" href="./Css/theme.css">
+</head>
+<body>
+	<header>
+		<nav>
+			<div class="menu-split">
+				<ul class="menu-left">
+					<li><button id="themeToggle" class="theme-toggle" type="button" aria-label="Переключить тему"></button></li>
+					<li class="menu-item"><a class="booking-link nav-book-link" href="#">Бронь</a></li>
+					<li class="menu-item"><a class="nav-menu-link" href="#">Меню</a></li>
+					<li class="menu-item"><a href="#anchor1">О нас</a></li>
+				</ul>
+				<div class="logo-divider">
+					<img src="./img/Ресторан.png" alt="Логотип ресторана">
+				</div>
+				<ul class="menu-right">
+					<li class="menu-item"><a href="#anchor2">Акции</a></li>
+					<li class="menu-item"><a href="#anchor3">Банкеты</a></li>
+					<li class="menu-item"><a href="#anchor4">Контакты</a></li>
+				</ul>
+			</div>
+		</nav>
+		<div class="fot-wrapper">
+			<div class="fot-text">
+				РЕСТОРАН ЕВРОПЕЙСКОЙ КУХНИ
+			</div>
+		</div>
+	</header>
+
+	<main>
+		<section class="gallery" aria-label="Галерея блюд">
+			<div class="gallery-item">
+				<img src="./img/еда1.jpg" alt="Блюдо 1">
+			</div>
+			<div class="gallery-item gallery-center">
+				<img src="./img/центр1.jpg" alt="Блюдо 2">
+			</div>
+			<div class="gallery-item">
+				<img src="./img/еда2.jpg" alt="Блюдо 3">
+			</div>
+		</section>
+
+		<section class="center-buttons" aria-label="Кнопки навигации">
+			<a href="#" class="btn btn-menu">Меню</a>
+			<a href="#" class="btn btn-book">Бронь</a>
+		</section>
+
+		<section class="about-section" id="anchor1" aria-labelledby="about-heading">
+			<div class="about-container">
+				<div class="about-image">
+					<img src="./img/рестикснаружи.jpg" alt="Интерьер ресторана Уютное место">
+				</div>
+				<div class="about-text">
+					<h2 id="about-heading">О нас</h2>
+					<p>Ресторан  — это пространство, где встречаются традиции европейской гастрономии и атмосфера домашнего тепла. Мы создали это место для тех, кто ценит качественные продукты, изысканный вкус и душевную обстановку.</p>
+					<p>Наша команда — это профессиональные шеф-повара с многолетним опытом работы в лучших ресторанах Европы. Мы используем только свежие фермерские продукты и следим за каждой деталью приготовления блюд.</p>
+					<p>Приходите в наш ресторан — здесь вы всегда почувствуете себя желанным гостем.</p>
+					<div class="signature">— Администрация ресторана</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="promo-section" id="anchor2" aria-labelledby="promo-heading">
+			<div class="promo-container">
+				<div class="side-circles left">
+					<img src="./img/едакруг1.jpg" alt="Блюдо" class="circle-img half">
+					<img src="./img/едакруг2.jpg" alt="Блюдо" class="circle-img">
+				</div>
+				<div class="side-circles right">
+					<img src="./img/едакруг3.jpg" alt="Блюдо" class="circle-img">
+					<img src="./img/едакруг4.jpg" alt="Блюдо" class="circle-img half">
+				</div>
+				<div class="promo-title">
+					<h1 id="promo-heading">АКЦИИ</h1>
+				</div>
+				<div class="carousel-wrapper">
+					<div class="carousel-track" id="carouselTrack">
+						<div class="carousel-slide">
+							<div class="promo-card">
+								<h2>ОБЕДЕННЫЕ СЕТЫ</h2>
+								<p>Обеденные сеты в будний непраздничный день<br>с 12:00 до 15:00</p>
+							</div>
+						</div>
+						<div class="carousel-slide">
+							<div class="promo-card">
+								<h2>Скидка в день рождения</h2>
+								<p>Скидка в размере 10% имениннику день в день<br>и три дня после дня рождения</p>
+							</div>
+						</div>
+						<div class="carousel-slide">
+							<div class="promo-card">
+								<h2>Счастливые часы</h2>
+								<p>Каждый будний день с 17:00 до 19:00<br>скидка 20% на всё меню</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="carousel-dots" id="carouselDots">
+					<span class="dot active"></span>
+					<span class="dot"></span>
+					<span class="dot"></span>
+				</div>
+			</div>
+		</section>
+
+		<section class="banquet-section" id="anchor3" aria-labelledby="banquet-heading">
+			<div class="banquet-container">
+				<h2 class="banquet-title" id="banquet-heading">БАНКЕТЫ</h2>
+				<p class="banquet-description">
+					Организуйте идеальный праздник в нашем ресторане.<br> Мы предлагаем индивидуальное меню, обслуживание и атмосферу для вашего торжества.
+				</p>
+				<div class="banquet-content">
+					<div class="banquet-image">
+						<img src="./img/свадьба.jpg" alt="Банкетный зал">
+					</div>
+					<div class="banquet-button-wrapper">
+						<a href="#" class="btn-banquet">Заказать банкет</a>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="gallery-grid" aria-label="Галерея фотографий">
+			<div class="grid-left">
+				<div class="grid-item grid-item-top">
+					<img src="./img/галлерея3.jpg" alt="Блюдо 1">
+				</div>
+				<div class="grid-item grid-item-bottom">
+					<img src="./img/галлерея4.jpg" alt="Блюдо 2">
+				</div>
+			</div>
+			<div class="grid-center">
+				<div class="grid-item grid-item-large">
+					<img src="./img/галлерея1.jpg" alt="Блюдо 3">
+				</div>
+			</div>
+			<div class="grid-right">
+				<div class="grid-item grid-item-top">
+					<img src="./img/галлерея5.jpg" alt="Блюдо 4">
+				</div>
+				<div class="grid-item grid-item-bottom">
+					<img src="./img/галлерея6.jpg" alt="Блюдо 5">
+				</div>
+			</div>
+		</section>
+	</main>
+
+	<footer class="footer" id="anchor4">
+		<div class="footer-container">
+			<div class="footer-info">
+				<div class="footer-item">
+					<span class="footer-text">Адрес</span>
+				</div>
+				<div class="footer-item">
+					<a class="footer-text">Номер</a>
+				</div>
+				<div class="footer-item">
+					<a class="footer-text">Почта</a>
+				</div>
+			</div>
+			<div class="footer-copyright">
+				<p>РЕСТОРАН ЕВРОПЕЙСКОЙ КУХНИ</p>
+			</div>
+		</div>
+	</footer>
+
+	<div id="bookingModal" class="modal" role="dialog" aria-modal="true" aria-labelledby="booking-heading">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h3 id="booking-heading">Бронирование</h3>
+				<span class="close-btn" aria-label="Закрыть">&times;</span>
+			</div>
+			<form id="bookingForm">
+				<div class="form-group">
+					<input type="text" id="name" placeholder="Имя*" aria-required="true">
+					<span class="error" id="nameError" role="alert"></span>
+				</div>
+				<div class="form-group">
+					<input type="tel" id="phone" placeholder="Телефон*" aria-required="true">
+					<span class="error" id="phoneError" role="alert"></span>
+				</div>
+				<div class="form-group">
+					<select id="restaurant" aria-required="true">
+						<option value="">Выберите ресторан*</option>
+						<option value="Адрес1">Адрес1 (свободно: <span id="tables1">35</span>)</option>
+						<option value="Адрес2">Адрес2(свободно: <span id="tables2">28</span>)</option>
+						<option value="Адрес3">Адрес3 (свободно: <span id="tables3">21</span>)</option>
+					</select>
+					<span class="error" id="restaurantError" role="alert"></span>
+				</div>
+				<div class="form-group">
+					<label for="tablesCount">Количество столов:</label>
+					<input type="number" id="tablesCount" min="1" max="10" placeholder="Сколько столов забронировать?">
+					<span class="error" id="tablesCountError" role="alert"></span>
+				</div>
+				<button type="submit" class="submit-btn">Забронировать</button>
+			</form>
+		</div>
+	</div>
+
+	<div id="successModal" class="modal" role="dialog" aria-modal="true" aria-labelledby="success-heading">
+		<div class="modal-content success-content">
+			<div class="modal-header">
+				<h3 id="success-heading">✓ Забронировано!</h3>
+				<span class="close-success" aria-label="Закрыть">&times;</span>
+			</div>
+			<p>Мы свяжемся с вами для подтверждения</p>
+		</div>
+	</div>
+
+	<div id="menuModal" class="modal" role="dialog" aria-modal="true" aria-labelledby="menu-heading">
+		<div class="modal-content menu-modal">
+			<div class="modal-header">
+				<h3 id="menu-heading">Наше меню</h3>
+				<span class="close-menu-btn" aria-label="Закрыть">&times;</span>
+			</div>
+			<div class="filter-buttons">
+				<button class="filter-btn active" data-filter="all">Все</button>
+				<button class="filter-btn" data-filter="salads">Салаты</button>
+				<button class="filter-btn" data-filter="soups">Супы</button>
+				<button class="filter-btn" data-filter="hot">Горячие блюда</button>
+				<button class="filter-btn" data-filter="desserts">Десерты</button>
+				<button class="filter-btn" data-filter="drinks">Напитки</button>
+			</div>
+			<div class="dishes-list" id="dishesList">
+			</div>
+		</div>
+	</div>
+	<script type="module" src="./Js/main.js"></script>
+</body>
+</html>
